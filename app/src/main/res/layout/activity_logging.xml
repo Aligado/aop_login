@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="12dp"
+        android:text=" 退出"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28dp" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="登录页面"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="58dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+</LinearLayout>
